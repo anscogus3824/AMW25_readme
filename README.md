@@ -55,6 +55,7 @@ Below, we summarize the model evaluation trends observed in the project slides (
 - `![Electrical conductivity — Symmetry only](path/to/fig_sigma_sym.png)`  
 - `![Electrical conductivity — Matminer only](path/to/fig_sigma_mat.png)`  
 - `![Electrical conductivity — Symmetry + Matminer](path/to/fig_sigma_combined.png)`  
+<img width="3937" height="1608" alt="Electric conductivity" src="https://github.com/user-attachments/assets/48f918b0-a8bb-4ac2-8c89-9221ae66bac6" />
 
 ### 🔥 Thermal conductivity
 - **Symmetry-only** features show **weak performance**.
@@ -64,7 +65,9 @@ Below, we summarize the model evaluation trends observed in the project slides (
 📌 *Figure placeholders (to be added to this README)*  
 - `![Thermal conductivity — Symmetry only](path/to/fig_kappa_sym.png)`  
 - `![Thermal conductivity — Matminer only](path/to/fig_kappa_mat.png)`  
-- `![Thermal conductivity — Symmetry + Matminer](path/to/fig_kappa_combined.png)`  
+- `![Thermal conductivity — Symmetry + Matminer](path/to/fig_kappa_combined.png)`
+<img width="3937" height="1608" alt="Thermal conductivity" src="https://github.com/user-attachments/assets/f378050d-73e7-45d2-ac27-ff03f53a8057" />
+
 
 ### 🧊 Seebeck coefficient
 - The overall trend is similar to thermal conductivity, but **symmetry-only performance is not bad**. fileciteturn2file0  
@@ -74,6 +77,7 @@ Below, we summarize the model evaluation trends observed in the project slides (
 - `![Seebeck coefficient — Symmetry only](path/to/fig_seebeck_sym.png)`  
 - `![Seebeck coefficient — Matminer only](path/to/fig_seebeck_mat.png)`  
 - `![Seebeck coefficient — Symmetry + Matminer](path/to/fig_seebeck_combined.png)`  
+<img width="3937" height="1608" alt="Seebeck coefficient" src="https://github.com/user-attachments/assets/07f54b1e-73df-4599-bb3c-d5ed9b652106" />
 
 ---
 ---
