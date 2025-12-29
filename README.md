@@ -14,6 +14,8 @@ Transport properties in crystalline solids are governed by both chemistry and st
 There may be meaningful relationships between:
 - **Transport coefficients** (e.g., thermal conductivity, electrical conductivity, Seebeck coefficient), and
 - **Crystal symmetry elements / symmetry operations** derived from the material’s **space group**.
+<img width="3666" height="1457" alt="Objective 1" src="https://github.com/user-attachments/assets/b74de0dd-9dea-43c3-92c3-ded7c7d61e47" />
+<img width="3313" height="1666" alt="objective 2" src="https://github.com/user-attachments/assets/ec593bc1-ba56-4c67-a1f6-315bd46cfde7" />
 
 We therefore investigate whether symmetry-derived descriptors can provide predictive signal—especially in combination with conventional composition-based descriptors.
 
@@ -58,10 +60,6 @@ Below, we summarize the model evaluation trends observed in the project slides (
 - When **Matminer descriptors** are included, the agreement becomes **much better**. fileciteturn2file0  
   → Practical takeaway: accurate thermal conductivity modeling likely depends strongly on **phonon-related physics**, for which composition/chemistry descriptors provide essential signal.
 
-📌 *Figure placeholders (to be added to this README)*  
-- `![Thermal conductivity — Symmetry only](path/to/fig_kappa_sym.png)`  
-- `![Thermal conductivity — Matminer only](path/to/fig_kappa_mat.png)`  
-- `![Thermal conductivity — Symmetry + Matminer](path/to/fig_kappa_combined.png)`
 <img width="3937" height="1608" alt="Thermal conductivity" src="https://github.com/user-attachments/assets/f378050d-73e7-45d2-ac27-ff03f53a8057" />
 
 
@@ -69,10 +67,6 @@ Below, we summarize the model evaluation trends observed in the project slides (
 - The overall trend is similar to thermal conductivity, but **symmetry-only performance is not bad**. fileciteturn2file0  
   → This indicates the Seebeck coefficient may be relatively **robust** and partially captured by symmetry-derived descriptors, with additional gains from composition features.
 
-📌 *Figure placeholders (to be added to this README)*  
-- `![Seebeck coefficient — Symmetry only](path/to/fig_seebeck_sym.png)`  
-- `![Seebeck coefficient — Matminer only](path/to/fig_seebeck_mat.png)`  
-- `![Seebeck coefficient — Symmetry + Matminer](path/to/fig_seebeck_combined.png)`  
 <img width="3937" height="1608" alt="Seebeck coefficient" src="https://github.com/user-attachments/assets/07f54b1e-73df-4599-bb3c-d5ed9b652106" />
 
 ---
