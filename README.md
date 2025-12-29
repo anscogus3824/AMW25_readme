@@ -51,10 +51,6 @@ Below, we summarize the model evaluation trends observed in the project slides (
 - Using the **combined feature set (symmetry + Matminer)** improves the prediction **substantially** compared to either component alone. fileciteturn2file0  
   → This suggests an **interaction effect**: conductivity appears to benefit from using symmetry information **in the context of** composition descriptors.
 
-📌 *Figure placeholders (to be added to this README)*  
-- `![Electrical conductivity — Symmetry only](path/to/fig_sigma_sym.png)`  
-- `![Electrical conductivity — Matminer only](path/to/fig_sigma_mat.png)`  
-- `![Electrical conductivity — Symmetry + Matminer](path/to/fig_sigma_combined.png)`  
 <img width="3937" height="1608" alt="Electric conductivity" src="https://github.com/user-attachments/assets/48f918b0-a8bb-4ac2-8c89-9221ae66bac6" />
 
 ### 🔥 Thermal conductivity
