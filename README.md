@@ -16,6 +16,10 @@ There may be meaningful relationships between:
 - **Crystal symmetry elements / symmetry operations** derived from the material’s **space group**.
 <img width="3666" height="1457" alt="Objective 1" src="https://github.com/user-attachments/assets/b74de0dd-9dea-43c3-92c3-ded7c7d61e47" />
 <img width="3313" height="1666" alt="objective 2" src="https://github.com/user-attachments/assets/ec593bc1-ba56-4c67-a1f6-315bd46cfde7" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b74de0dd-9dea-43c3-92c3-ded7c7d61e47" alt="Objective 1" width="49%" />
+  <img src="https://github.com/user-attachments/assets/ec593bc1-ba56-4c67-a1f6-315bd46cfde7" alt="Objective 2" width="49%" />
+</p>
 
 We therefore investigate whether symmetry-derived descriptors can provide predictive signal—especially in combination with conventional composition-based descriptors.
 
