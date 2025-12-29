@@ -47,25 +47,25 @@ We extend LitDX entries with additional descriptors and build a feature table fo
 
 > **Metric note**: We report **MAPE (Mean Absolute Percentage Error)**, a unitless error metric that is comparable across properties with different units. fileciteturn2file0
 
-Below, we summarize the model evaluation trends observed in the project slides (symmetry-only vs. Matminer-only vs. combined). fileciteturn2file0
+Below, we summarize the model evaluation trends observed in the project slides (symmetry-only vs. Matminer-only vs. combined). 
 
 ### ⚡ Electrical conductivity
 - Using **symmetry-only** or **Matminer-only** features gives **poor predictive performance**.
-- Using the **combined feature set (symmetry + Matminer)** improves the prediction **substantially** compared to either component alone. fileciteturn2file0  
+- Using the **combined feature set (symmetry + Matminer)** improves the prediction **substantially** compared to either component alone.   
   → This suggests an **interaction effect**: conductivity appears to benefit from using symmetry information **in the context of** composition descriptors.
 
 <img width="3937" height="1608" alt="Electric conductivity" src="https://github.com/user-attachments/assets/48f918b0-a8bb-4ac2-8c89-9221ae66bac6" />
 
 ### 🔥 Thermal conductivity
 - **Symmetry-only** features show **weak performance**.
-- When **Matminer descriptors** are included, the agreement becomes **much better**. fileciteturn2file0  
+- When **Matminer descriptors** are included, the agreement becomes **much better**.  
   → Practical takeaway: accurate thermal conductivity modeling likely depends strongly on **phonon-related physics**, for which composition/chemistry descriptors provide essential signal.
 
 <img width="3937" height="1608" alt="Thermal conductivity" src="https://github.com/user-attachments/assets/f378050d-73e7-45d2-ac27-ff03f53a8057" />
 
 
 ### 🧊 Seebeck coefficient
-- The overall trend is similar to thermal conductivity, but **symmetry-only performance is not bad**. fileciteturn2file0  
+- The overall trend is similar to thermal conductivity, but **symmetry-only performance is not bad**. 
   → This indicates the Seebeck coefficient may be relatively **robust** and partially captured by symmetry-derived descriptors, with additional gains from composition features.
 
 <img width="3937" height="1608" alt="Seebeck coefficient" src="https://github.com/user-attachments/assets/07f54b1e-73df-4599-bb3c-d5ed9b652106" />
